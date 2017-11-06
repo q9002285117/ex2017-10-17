@@ -8,7 +8,7 @@ import java.awt.event.WindowEvent;
 public class MainFrame extends JFrame {
     private JTextField jTextField=new JTextField();
     private JButton jbtns[]=new JButton[9];
-    private JPanel jPanel=new JPanel(new GridLayout(3,3));
+    private JPanel jPanel=new JPanel(new GridLayout(3,3,3,3));
     private Container cp;
     private LoginFrame loginFrame;
 
